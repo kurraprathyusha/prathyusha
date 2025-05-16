@@ -1,0 +1,16 @@
+class  Main{
+	public static void main(String []args){
+
+	char a='E';
+	if((a>='a' and a<='z')||(a>='A' and a<='Z'))
+	{
+		if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+			System.out.println(" small vowel");
+		else
+			System.out.println(" big consonant");
+
+	}
+	else
+		System.out.println("invalid");
+}
+}

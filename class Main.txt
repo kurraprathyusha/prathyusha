@@ -1,0 +1,95 @@
+class Main {
+    public static void main(String[] args)
+    {
+        int num=512;
+    String f=(num %10==0) ? "yes":"no" ;
+        System.out.println(f);
+    }
+class Main {
+    public static void main(String[] args)
+    {
+        int age=12;
+    String f=(age>=18)?"major":"minor" ;
+        System.out.println(f);
+    }
+}
+
+class Main {
+    public static void main(String[] args)
+    {
+        int num=39;
+        int b=num%10;
+        int c=b*num;
+   String f=(num%3==0)?"divisible "+b:"not divisible" +c;
+        System.out.println(f );
+    }
+}
+
+ int m1=99,m2=99,m3=90,m4=90;
+        double total=m1+m2+m3+m4,p=(total/400)*100;
+        if(p>=90)
+        System.out.println("A+");
+        else if(p>=80)
+        System.out.println("A");
+        else if(p>=70)
+        System.out.println("B");
+        else if(p>=60)
+        System.out.println("C");
+        else if(p>=45)
+        System.out.println("D");
+        else
+        System.out.println("fail");
+
+class Main {
+    public static void main(String[] args)
+    {
+        int p1=2000,p2=25000,p3=4000,p4=60000,q1=2,q2=1,q3=3,q4=1,t1=p1*q1,t2=q2*p2,t3=p3*q3,t4=q4*p4;
+         int total=t1+t2+t3+t4;
+         double percentage1=0;
+        
+        if(total>=10000)
+        {
+            percentage1=(17.0/100)*total;
+        
+        }
+        else
+        {
+         percentage1=(3.0/100)*total;
+            
+        }
+        double final1=total-percentage1;
+        System.out.println(final1);
+             
+    }
+}
+
+ int num=25;
+        double a=Math.sqrt(num);
+        //int b= Math.round(a,0)=a;
+        if(Math.round(a)==a)
+        System.out.println("perfect square");
+        else
+        System.out.println("not");
+    double b=Math.sqrt(num);
+    String r=(b*b==num )? "pefectsquare":"not ps";
+    System.out.println(r);
+    int a=2;
+    if(a==1 || a==3 ||a==5 ||a==7||a==8||a==10||a==12)
+    System.out.println("31");
+    else if(a==4 ||a==6 ||a==9||a==11||a==11)
+    System.out.println("30");
+    else 
+    // System.out.println("28");
+    
+    
+    int a=25;
+    double b =Math.sqrt(a);
+    String r=(Math.round(b)==b)?"ps":"nps";
+    System.out.println(r);
+    }
+}
+int m1=90,m2=82,m3=87,m4=80;
+        double total=m1+m2+m3+m4,p=(total/400)*100;
+        String r=(p>=90)?"A+":(p>=80)?"A":(p>=70)?"B":(p>=60)?"C":(p>=45)?"d":"fail";
+        System.out.println(r);
+    }
