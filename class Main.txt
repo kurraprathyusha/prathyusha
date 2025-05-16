@@ -17,7 +17,7 @@ class Main {
 class Main {
     public static void main(String[] args)
     {
-        int num=39;
+        int num=38;
         int b=num%10;
         int c=b*num;
    String f=(num%3==0)?"divisible "+b:"not divisible" +c;
