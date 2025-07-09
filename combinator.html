@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Document</title>
+  <style>
+    /*for direct child elements only*/
+    div>p{
+        color:blue;
+    }
+    /*for both direct nd indirect*/
+    div p{
+        font-style:italic;
+        color:orange;
+    }
+    /*specific element next to all applied*/
+    p ~ p{
+        color:blanchedalmond;
+    }
+    /*only  applied to element adjacent one*/
+    p + p{
+        color:blanchedalmond;
+    }
+    /*pseudo 3rd one*/
+    ::selection{
+        color:brown;
+    }
+    ::first-letter{
+        font-size: 200%;
+        color:aqua;
+    }
+    ::before{
+        content: var;
+    }
+    ::after{
+        color:beige;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <p>welcome</p>
+        <h1> allx</p>
+        <p>bbbb</p>
+        <p>hi i am prathyusha welcome to all </p>
+        <span>
+            <p>pppp</p>
+        </span>
+    </div>
+</body>
+</html>
